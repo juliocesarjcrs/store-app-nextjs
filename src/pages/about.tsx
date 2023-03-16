@@ -5,9 +5,8 @@ export default function About() {
   return (
     <Layout>
       <div>
-        <p>Page Home!</p>
+        <p>Page About!</p>
       </div>
     </Layout>
   );
 }
-
