@@ -1,10 +1,10 @@
 import { useRouter } from "next/router";
 
-const Product = () => {
+const Subcategory = () => {
     const router = useRouter();
     const { id } = router.query;
 
-    return <p>Product: {id}</p>;
+    return <p>Subcategory: {id}</p>;
 };
 
-export default Product;
+export default Subcategory;

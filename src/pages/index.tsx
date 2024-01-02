@@ -1,7 +1,5 @@
-import Navbar from '@/components/Navbar';
 import Layout from '@/components/Layout';
-
-export default function About() {
+export default function Home() {
   return (
     <Layout>
       <div>
@@ -10,4 +8,3 @@ export default function About() {
     </Layout>
   );
 }
-

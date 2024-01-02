@@ -1,5 +1,5 @@
 import { get, URL } from './base';
-export type Menu = {
+export type MenuEntity = {
   id: string;
   name: string;
   active: string;
@@ -7,5 +7,5 @@ export type Menu = {
 };
 export const getAllMenus = async () => {
   const response = await get(`${URL}menus`);
-  return (await response.json()) as Menu[];
+  return (await response.json()) as MenuEntity[];
 };
